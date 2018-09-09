@@ -7,7 +7,7 @@ Ionic-app for Toll Payment
 
 ![alt text](Demo/2.png)
 
-![alt text](Demo/3.png)
+![alt text](Demo/3.PNG)
 
 ![alt text](Demo/4.png)
 
