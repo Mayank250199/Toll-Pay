@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Routes
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-header>
+      Tolls in your route
+    </ion-card-header>
+
+    <ion-list>
+      <button ion-item *ngFor="let toll of tol">
+        <ion-icon name="bus"  item-start></ion-icon>
+        Toll Name : {{toll.name}}
+        <p> Price: {{toll.oneWay}} INR</p>
+      </button>
+      <br>
+      <br>
+      <b><h1>Total Amount:{{sum}}</h1></b>
+    </ion-list>
+  </ion-card>
+  <button ion-button (click)="payment()">Pay</button>
+</ion-content>
